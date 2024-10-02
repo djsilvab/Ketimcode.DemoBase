@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Ketimcode.DemoBase.Api.Habilidad",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

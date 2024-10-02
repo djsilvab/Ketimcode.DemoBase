@@ -1,0 +1,18 @@
+meta {
+  name: POST Mandril
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://{{Server}}/{{PathAPI}}/Mandril
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nombre": "Salvador",
+    "apellido": "Silva Polo"
+  }
+}

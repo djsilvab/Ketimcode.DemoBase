@@ -1,0 +1,22 @@
+meta {
+  name: PUT Mandril
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://{{Server}}/{{PathAPI}}/Mandril/{{id}}
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nombre": "David Salvador",
+    "apellido": "Silva Polo2"
+  }
+}
+
+vars:pre-request {
+  id: 5
+}

@@ -1,0 +1,6 @@
+@Ketimcode.DemoBase.Api_HostAddress = http://localhost:5263
+
+GET {{Ketimcode.DemoBase.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

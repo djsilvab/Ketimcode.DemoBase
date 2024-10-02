@@ -1,0 +1,15 @@
+meta {
+  name: GET Habilidades
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://{{Server}}/{{PathApi}}/mandril/{{idmandril}}/habilidad
+  body: none
+  auth: none
+}
+
+vars:pre-request {
+  idmandril: 3
+}

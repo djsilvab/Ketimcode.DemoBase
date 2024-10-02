@@ -1,0 +1,16 @@
+meta {
+  name: DELETE Mandril
+  type: http
+  seq: 5
+}
+
+delete {
+  url: http://{{Server}}/{{PathApi}}/mandril/{{idmandril}}/habilidad/{{id}}
+  body: none
+  auth: none
+}
+
+vars:pre-request {
+  idmandril: 3
+  id: 4
+}

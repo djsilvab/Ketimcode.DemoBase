@@ -1,0 +1,23 @@
+meta {
+  name: POST Habilidad
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://{{Server}}/{{PathApi}}/mandril/{{idmandril}}/habilidad
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "Nombre": "Reir",
+    "Potencia": 4
+  }
+}
+
+vars:pre-request {
+  idmandril: 3
+  id: 3
+}
